@@ -70,6 +70,10 @@ $('#submit').click(function( event ){
 		output.style.display="block";
 		output.innerHTML = "You are " + yearsOld + " years, " + monthsOld + " months, " + daysOld + " days, " + hour + " hours, " + minutes + " minutes, and " + seconds + " seconds old.";
 
+		var villain = document.getElementById("villain")
+		villain.style.display="block";
+		villain.innerHTML = "Your villain name is: " + getVillainName(birthMonth, birthDay)
+
 });
 
 
