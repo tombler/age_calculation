@@ -5,10 +5,11 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title></title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel='shortcut icon' href='favicon.ico' type='image/x-icon'/>
+  <title>They Say It's Your Birthday!</title>
   <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Archivo+Narrow' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <!-- //Form to type in birthday
@@ -17,7 +18,7 @@
   <div id="center">
 	<div id="form">
 		<form action="get">
-		<legend>Enter your birthday.</legend>
+			<legend>Enter your birthday.</legend>
 			<input list="months" name="month" placeholder="Month" id="birthMonth">
 				<datalist id="months">
 				  <option value="January">
@@ -72,19 +73,23 @@
 				<datalist id="year">
 
 				</datalist>
-			<div id="button-align">
-				<button type="submit" id="submit">Submit</button>
-			</div>
+			<button type="submit" class="button-align" id="submit">Submit</button>
 			<div id="output"></div>
-			<div id="villain"></div>	
+			<div id="villain"></div>
+
 		</form>
 		
 	</div>
   </div>
 
-	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   	<script src="villain.js"></script>
 	<script src="age_calculation.js"></script>
 	
 </body>
+
+
+
+
+
 
